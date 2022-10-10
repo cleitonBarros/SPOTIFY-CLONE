@@ -1,0 +1,84 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+hmtl, body {height: 100%;}
+
+.sidebar{
+    float: left;
+    width:200px;
+    padding:10px 10px;
+    height:100%;
+    overflow-y: none;
+    
+    background-color: black;
+}
+.sidebarWrapper{
+    padding-bottom: 200px;;
+}
+.sidebarMenu{
+    margin: 20px 0;
+    color: rgb(190,190,190);
+}
+.sidebarLogo{
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    
+}
+.sidebarLogo img{
+    max-width: 120px;
+    width: 100%;
+   
+}
+.sidebarMenu a{
+    color: rgb(190,190,190);
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+.sidebarMenu i {
+    margin: 0 20px;
+}
+.sidebarMenu a.sidebarSelecionado{
+    color: white;
+    background-color:rgb(80,80,80);
+    border-radius:5px;
+}
+.sidebarMenuItem{
+    margin-top:12px;
+    cursor: pointer;
+    vertical-align: middle;
+
+}
+.sidebarMenuItem p{
+  font-size:14px;
+  font-weight:bold;
+  padding:0 10px;
+
+}
+.sidebarMenuItem p img{
+    font-size:14px;
+    font-weight:bold;
+    padding:0 10px;
+  
+  }
+.sidebarMenu p.sidebarMenuTitle{
+    color:white;
+    text-transform: uppercase;
+    font-size: 14px;
+
+}
+.sidebarMenuItemComponente{
+    width:30px;
+    height:30px;
+    text-align: center;
+    line-height:30px;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    background-color:white;
+    font-weight: bold;
+}
