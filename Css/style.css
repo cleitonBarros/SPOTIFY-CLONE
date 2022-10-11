@@ -139,3 +139,14 @@ html, body {height: 100%;}
 .mainCol img{
     width:100%;
 }
+.mainCol h3{
+    color:white;
+    margin: 8px 0;
+
+}
+.mainCol p{
+    color: rgb(100,100,100);
+    margin: 8px 0;
+    font-size:13px;
+    text-align:left;
+}
