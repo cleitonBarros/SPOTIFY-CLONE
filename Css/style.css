@@ -112,6 +112,7 @@ html, body {height: 100%;}
     margin-top: 20px;
     margin-bottom: 40px;
     list-style: none;
+    
 }
 .mainWrapper {
     padding-bottom: 200px;
@@ -150,3 +151,72 @@ html, body {height: 100%;}
     font-size:13px;
     text-align:left;
 }
+.player{
+    width:100%;
+    padding:20px;
+    height:130px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    background-color:rgb(60,60,60)
+}
+.playerArtist{
+    width:20%;
+}
+.playerArtist img{
+    max-width: 70px;
+    display: inline-block;
+    vertical-align: middle
+}
+.playerArtist h3 {
+    display: inline-block;
+    color:white;
+    font-weight: normal;
+    font-size: 20px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+.playerArtist h3 > span{
+    color: rgb(200,200,200);
+    font-size:13px;
+}
+.playerControl{
+    width: 70%;
+    text-align: center;
+
+}
+.playerControlButton a{
+    color:white;
+    margin: 0 15px;
+    font-size:18px;
+}
+.playerControlProgress{
+    width: 100%;
+    max-width: 600px;
+    height:7px;
+    position:relative;
+    margin-top:20px;
+    border-radius:8px;
+    display: inline-block;
+    background-color:rgb(130,130,130);
+}
+.playerControlProgress2{
+    position:absolute;
+    top: 0;
+    left: 0;
+    background-color:white;
+    height:7px;
+    width:20%;
+    border-radius:8px;
+
+}
+ @media screen and ( max-width: 1280px ) {
+    .mainCol{
+        width: 20%;
+    }
+    .mainRow  {
+        justify-content: space-evenly;
+    }
+    
+ }
