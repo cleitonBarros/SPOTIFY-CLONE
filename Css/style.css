@@ -216,7 +216,16 @@ html, body {height: 100%;}
         width: 20%;
     }
     .mainRow  {
-        justify-content: space-evenly;
+        justify-content: space-between;
+    }
+    
+ }
+ @media screen and ( max-width: 850px ) {
+    .mainCol{
+        width: 50%;
+    }
+    .mainRow  {
+        justify-content: space-between
     }
     
  }
